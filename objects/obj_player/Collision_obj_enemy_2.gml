@@ -16,7 +16,7 @@ if !recently_hit {
 	alarm[0] = 60;	//tempo de invunerabilidade
 	
 	var freeze_time = current_time + 50;
-    while (current_time < freeze_time) { 
+    while (current_time < freeze_time) {
 		/* espera o tempo passar 
 		o que da o efeito de freeze/paralisação */ 
 	}
