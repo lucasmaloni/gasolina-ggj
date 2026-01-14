@@ -31,8 +31,6 @@ if (state == "moving") {
 	x += lengthdir_x(knockback_force, kb_dir);
 	y += lengthdir_y(knockback_force, kb_dir);
 	
-	// Efeito visual do carro girando
-	image_angle += 15;
 	
 	// Aplica atrito reduzindo a força do knockback
 	knockback_force = lerp(knockback_force, 0, friction_force);
