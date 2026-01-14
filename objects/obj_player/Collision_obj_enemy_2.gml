@@ -3,8 +3,8 @@ if !recently_hit {
 	global.player_lives -= 1;		//remove 1 de vida
 	recently_hit = true;	//muda a variavel 
 	state = "knockback";	//muda o estado
-	
-	knockback_force = 6;
+	image_index = 0;
+
 	kb_dir = point_direction(other.x, other.y, x, y);
 	
 	//Se a colisão for diretamente na traseira, o computador escolhe uma das diagonais para jogar o player

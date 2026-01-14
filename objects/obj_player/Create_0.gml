@@ -2,7 +2,7 @@
 x_speed = 0;
 y_speed = 0;
 move_speed = 2;
-friction_force = 0.2;
+friction_force = 0.15;
 knockback_force = 6;
 state = "moving";
 counter = 0;
