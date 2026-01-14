@@ -1,5 +1,5 @@
 global.distance = 0;
-global.world_speed = 2;
+global.world_speed = 3;
 
 layer_pista_id = layer_get_id("bkg_road");
 
