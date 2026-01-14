@@ -1,5 +1,4 @@
 // Stats e Vetores do Player e da movimentação
-player_lives = 3;
 x_speed = 0;
 y_speed = 0;
 move_speed = 2;
