@@ -19,7 +19,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Dale Gasolina",
   "resources":[
@@ -38,6 +38,7 @@
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},},
     {"id":{"name":"spr_gas","path":"sprites/spr_gas/spr_gas.yy",},},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},},
+    {"id":{"name":"spr_knockback","path":"sprites/spr_knockback/spr_knockback.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},},
   ],
