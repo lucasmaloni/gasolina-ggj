@@ -1,6 +1,6 @@
-if (instance_exists(obj_player)){
-	global.distance = 1 ;
-}
+//if (instance_exists(obj_player)){
+//	global.distance = 1 ;
+//}
 
 // Verificação de game over do jogo
 if (global.player_lives = 0 && global.game_over == false) {
@@ -27,3 +27,5 @@ if (instance_exists(obj_player)){
 
 global.world_speed = lerp(global.world_speed, base_speed + boost, 0.05);
 layer_vspeed(layer_pista_id, global.world_speed);
+
+global.distance += (global.world_speed * global.meters_per_pixel);

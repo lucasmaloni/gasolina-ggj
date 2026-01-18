@@ -5,6 +5,7 @@ e divisão de responsabilidades.
 */
 global.distance = 0;
 global.player_lives = 3;
+global.meters_per_pixel = 0.1;
 global.game_over = false;
 
 global.world_speed = 3;
