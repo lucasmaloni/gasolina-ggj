@@ -3,7 +3,7 @@ counter++;
 
 if (state == "moving") {
 	sprite_index = spr_player;
-	
+	global.current_fuel -= global.fuel_use;
 	//Input de movimentação, A D movimentação horizontal, S W movimentação vertical
 	var input_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 	var input_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));

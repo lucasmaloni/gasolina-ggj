@@ -5,4 +5,4 @@ draw_text(120, 20, "Vidas: " + string(global.player_lives));
 
 draw_text(120, 40, "Distância: " + string(floor(global.distance)) + "m");
 
-draw_text(120, 60, "Gas: " + string(global.current_fuel));
+draw_text(120, 60, "Gas: " + string(floor(global.current_fuel)));
