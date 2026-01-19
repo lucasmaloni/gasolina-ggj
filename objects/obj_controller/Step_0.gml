@@ -1,3 +1,4 @@
+//Condição de game over
 if ((global.player_lives <= 0 || global.current_fuel <= 0) && global.game_over == false) {
     
     global.game_over = true;
@@ -10,10 +11,14 @@ if ((global.player_lives <= 0 || global.current_fuel <= 0) && global.game_over =
     instance_create_layer(44, 20, "Instances", obj_game_over);
     
     // Para a estrada visualmente
-    layer_vspeed(layer_pista_id, 0);      
+    layer_vspeed(layer_pista_id, 0);
     
     // Para a velocidade global
     global.world_speed = 0;
+	
+	if (instance_exists(obj_controller)){
+		instance_destroy(obj_controller);
+	}
 } 
 else if (global.distance >= 999 && global.game_over == false) {
     
