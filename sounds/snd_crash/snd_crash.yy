@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.4613152,
+  "duration":1.0726984,
   "exportDir":"",
   "name":"snd_crash",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_crash.wav",
-  "volume":0.5,
+  "volume":0.3,
 }

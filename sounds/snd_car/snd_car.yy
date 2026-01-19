@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_car.wav",
-  "volume":0.19,
+  "volume":0.15,
 }

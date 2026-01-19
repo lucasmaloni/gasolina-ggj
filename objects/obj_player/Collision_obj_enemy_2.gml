@@ -21,6 +21,10 @@ if !recently_hit {
 		o que da o efeito de freeze/paralisação */ 
 	}
 	
-	audio_play_sound(snd_crash, 0, false);
-		
+	audio_play_sound(snd_crash, 0, false);		
+}
+
+//validação para evitar a leitrua de valores negativos para a vida do jogador
+if (global.player_lives <0){
+	global.player_lives = 0;
 }
