@@ -25,6 +25,7 @@ if (state == "moving") {
 	x = clamp(x, min_x, max_x);
 	y = clamp(y, min_y, max_y);
 	
+	
 } else if (state == "knockback") {
 	sprite_index = spr_knockback;
 	// Aqui é o caso de batida
@@ -44,6 +45,8 @@ if (state == "moving") {
 		// Essa variavel será redefinida como 6 também no evento de colisão
 		
         image_angle = 0; // Imagem volta ao normal
+		
+	audio_play_sound(snd_drift_cut, 2, false)
     }
 }
 

@@ -1,6 +1,6 @@
 if !recently_hit {
 	
-	global.player_lives -= 1;		//remove 1 de vida
+	global.player_lives -= 2;		//remove 1 de vida
 	recently_hit = true;	//muda a variavel 
 	state = "knockback";	//muda o estado
 	image_index = 0;
@@ -20,5 +20,7 @@ if !recently_hit {
 		/* espera o tempo passar 
 		o que da o efeito de freeze/paralisação */ 
 	}
+	
+	audio_play_sound(snd_crash, 0, false);
 		
 }

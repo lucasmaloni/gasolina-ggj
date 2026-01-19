@@ -2,13 +2,20 @@
 //	global.distance = 1 ;
 //}
 
-// Verificação de game over do jogo
-if (global.player_lives = 0 && global.game_over == false) {
+// Verificação de game over do jogo por vida
+if (global.player_lives <= 0 && global.game_over == false) {
 		obj_player.state = "death";
 		instance_create_layer(44, 20,"Instances", obj_game_over);//cria a instancia da tela de gameover
 		layer_vspeed(layer_pista_id, 0);						     //para a estrada
-		instance_destroy(obj_controller);						 //destroi o controller
-		
+		instance_destroy(obj_controller);						 //destroi o controller		
+}
+
+// Verificação de game over do jogo por gasolina
+if (global.current_fuel = 1 && global.game_over == false){
+	obj_player.state = "death";
+	instance_create_layer(44, 20,"Instances", obj_game_over)
+	layer_vspeed(layer_pista_id, 0);						     
+	instance_destroy(obj_controller);
 }
 
 layer_vspeed(layer_pista_id, global.world_speed);

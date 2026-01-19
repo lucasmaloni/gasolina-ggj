@@ -21,4 +21,6 @@ if !recently_hit {
 		o que da o efeito de freeze/paralisação */ 
 	}
 	
+	audio_play_sound(snd_crash, 0, false);
+	
 }
