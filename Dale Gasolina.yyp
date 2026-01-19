@@ -19,11 +19,10 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Dale Gasolina",
   "resources":[
-    {"id":{"name":"font_game","path":"fonts/font_game/font_game.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_enemy_1","path":"objects/obj_enemy_1/obj_enemy_1.yy",},},
     {"id":{"name":"obj_enemy_2","path":"objects/obj_enemy_2/obj_enemy_2.yy",},},
