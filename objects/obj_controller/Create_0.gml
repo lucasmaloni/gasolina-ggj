@@ -4,7 +4,7 @@ a diferentes elementos do jogo como globais para facilitar o acesso
 e divisão de responsabilidades.
 */
 global.distance = 0;
-global.player_lives = 4;
+global.player_lives = 10;
 global.meters_per_pixel = 0.1;
 global.game_over = false;
 
@@ -17,7 +17,7 @@ alarm[11] = 1;
 
 // Dados de combustivel e uso dele in-game
 global.current_fuel = 100;
-global.fuel_use = 0.2;
+global.fuel_use = 0.1;
 
 //som do carro
 audio_play_sound(snd_car, 0 ,false);

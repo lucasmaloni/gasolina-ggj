@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_drift_cut",
   "parent":{
-    "name":"Assets",
-    "path":"folders/Assets.yy",
+    "name":"Sounds",
+    "path":"folders/Assets/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

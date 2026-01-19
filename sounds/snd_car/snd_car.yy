@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_car",
   "parent":{
-    "name":"Assets",
-    "path":"folders/Assets.yy",
+    "name":"Sounds",
+    "path":"folders/Assets/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

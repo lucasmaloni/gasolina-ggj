@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_crash",
   "parent":{
-    "name":"Assets",
-    "path":"folders/Assets.yy",
+    "name":"Sounds",
+    "path":"folders/Assets/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
