@@ -8,7 +8,7 @@ state = "moving";
 counter = 0;
 recently_hit = false
 
-// Limites de localização do carro
+// Limites de localização do carro na pista
 min_x = 35; max_x = 99;
 min_y = 0; max_y = 224;
 
