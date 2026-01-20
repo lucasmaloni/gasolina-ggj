@@ -7,28 +7,36 @@ if ((global.player_lives <= 0 || global.current_fuel <= 0) && global.game_over =
         obj_player.state = "death";
     }
 
-    // Cria a tela de Game Over
-    instance_create_layer(44, 20, "Instances", obj_game_over);
+    //cria a tela de Game Over
+    instance_create_layer(130, 200, "Instances", obj_game_over);
+	
     
-    // Para a estrada visualmente
+    //pra a estrada visualmente
     layer_vspeed(layer_pista_id, 0);
     
-    // Para a velocidade global
+    //para a velocidade global
     global.world_speed = 0;
 	
+	//destroi o controller 
 	if (instance_exists(obj_controller)){
 		instance_destroy(obj_controller);
 	}
+	
+	//para o som do carro ao morrer
+	audio_stop_sound(snd_car)
 } 
-else if (global.distance >= 999 && global.game_over == false) {
+else if (global.distance >= 1000 && global.game_over == false) {
     
     global.game_over = true;
-    global.distance = 999;
+    global.distance = 1000;
+	global.score = (global.distance*global.player_lives)+global.current_fuel;
     
     if (instance_exists(obj_player)) {
         obj_player.state = "victory";
     }
     
+	layer_set_visible(layer_victory, true);
+	
     layer_vspeed(layer_pista_id, 0);
     global.world_speed = 0;
     
@@ -39,6 +47,13 @@ else if (global.distance >= 999 && global.game_over == false) {
 	alarm[1] = 0;
 	
     show_debug_message("VITÓRIA!"); //Adicionar layer de vitoria
+
+	if (instance_exists(obj_controller)){
+		instance_destroy(obj_controller);
+	}
+	
+	//para o som do carro ao ganhar
+	audio_stop_sound(snd_car)
 }
 
 if (global.game_over == false) {

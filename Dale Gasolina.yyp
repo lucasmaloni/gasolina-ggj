@@ -20,7 +20,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Dale Gasolina",
   "resources":[
@@ -33,10 +33,10 @@
     {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_road","path":"objects/obj_road/obj_road.yy",},},
+    {"id":{"name":"obj_victory","path":"objects/obj_victory/obj_victory.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"snd_car","path":"sounds/snd_car/snd_car.yy",},},
     {"id":{"name":"snd_crash","path":"sounds/snd_crash/snd_crash.yy",},},
-    {"id":{"name":"snd_drift_cut","path":"sounds/snd_drift_cut/snd_drift_cut.yy",},},
     {"id":{"name":"snd_drift","path":"sounds/snd_drift/snd_drift.yy",},},
     {"id":{"name":"snd_gas","path":"sounds/snd_gas/snd_gas.yy",},},
     {"id":{"name":"spr_enemy_1","path":"sprites/spr_enemy_1/spr_enemy_1.yy",},},

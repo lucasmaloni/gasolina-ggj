@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":180.00108,
+  "duration":0.8028125,
   "exportDir":"",
   "name":"snd_drift",
   "parent":{
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_drift.wav",
-  "volume":0.15,
+  "volume":0.3,
 }
